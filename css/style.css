@@ -1,0 +1,54 @@
+/* 
+font size (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* ===================================== */
+/* Main Navigation */
+/* ===================================== */
+
+.main-nav {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* unordered list */
+.main-nav--content {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.main-nav--button {
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: inherit;
+  border: none;
+}
+
+.main-nav--item:link,
+.main-nav--item:visited {
+  display: inline;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+  color: #595959;
+}
+
+.main-nav--item:hover,
+.main-nav--item:active {
+  color: #d80000;
+  text-decoration: underline;
+}

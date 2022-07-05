@@ -1,0 +1,28 @@
+.bear {
+  height: 4.2rem;
+  width: 4.2rem;
+}
+
+.bear__ear-inner {
+  fill: #ecc7ad;
+}
+
+.bear__cap-strap {
+  fill: #d80000;
+}
+
+.bear__cap-strap--main {
+  fill: #f00;
+}
+
+.shades__lens {
+  fill: #202222;
+}
+
+.shades__detail {
+  fill: #e6e6e6;
+}
+
+.bear__muzzle {
+  fill: #ecc7ad;
+}
